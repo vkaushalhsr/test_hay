@@ -36,7 +36,7 @@ ROBOT = rospy.get_param("/haystack/robot", "VIOLET")
 DEBUG = False
 MANUAL = False
 if ROBOT == "PURPLE":
-    print(f"ROBOT is Purple")
+    print(f"ROBOT purple")
     REEMAN = True
 if ROBOT == "VIOLET":
     print(f"ROBOT is Violet")
